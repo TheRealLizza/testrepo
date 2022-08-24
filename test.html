@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Survey Form</title>
+    </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id=
+    "description">We would love to hear your thoughts and feedback.</p>
+    <form id="survey-form" action="https://register-demo.freecodecamp.org">
+    <fieldset>
+      <label id="name-label">Name</label><input type="text" placeholder="Name" id="name" required>
+      <label id="email-label">Email</label><input type="email" placeholder="Email" id="email" required>
+      <label id="number-label">Age (Optional)</label><input type="number" placeholder="Age" id="number" min="16" max="120">
+        </fieldset>
+    <fieldset>
+      <label>Why are you interested in learning to code?
+      <select id="dropdown">
+        <option value="">(Select one)</option>       
+        <option value="1">fun</option>
+        <option value="2">new career</option>
+        <option value="3">refresher</option>
+        <option value="4">upgrade at your current job</option>
+        </select>
+        </label>
+    </fieldset>
+    
+    <fieldset>
+      <p>Do you plan on learning code within the next month?</p>
+      <label><input type="radio" value="definately" name="plan"> Definitely</label>
+      <label><input type="radio" value="maybe" name="plan"> Maybe</label>
+      <label><input type="radio" value="not sure" name="plan"> Not sure</label>
+    </fieldset>
+    <fieldset>
+      <p>What courses are you interested in taking now or in the future? (Check all that apply)</p>
+      <label><input type="checkbox" value="front-end"/> Front-end Projects</label>
+      <label><input type="checkbox" value="back-end"/> Back-end Projects</label>
+      <label><input type="checkbox" value="data" /> Data Visualization</label>
+      <label><input type="checkbox" value="data sci"/> Data Science</label>
+      <label><input type="checkbox" value="design"/> UI/UX design</label>
+      </fieldset>
+    <fieldset>
+      <label>Any additional comments you would like to share with us.</label>
+      <textarea rows="10" cols="30" name="feedback"></textarea>
+      </fieldset>
+     <input type="submit" value="Submit" id="submit">
+    </form>
+    </body>
+
+
+<html>
